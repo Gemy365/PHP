@@ -1,0 +1,13 @@
+<?php
+
+$arr = array("Mohamed", "Gamal", "Mohamed", "ElDoctor");
+
+echo "<pre>";
+print_r($arr);
+echo "</pre>";
+
+$Name = implode(" " , $arr);
+
+//$Name = join(" " , $arr);
+
+echo $Name;

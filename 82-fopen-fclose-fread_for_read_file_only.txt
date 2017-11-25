@@ -1,0 +1,9 @@
+<?php
+
+$file = fopen("Gemy.txt", "r");
+
+$read = fread($file, filesize("Gemy.txt"));
+
+echo $read;
+
+fclose($file); 

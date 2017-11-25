@@ -1,0 +1,9 @@
+<?php
+
+$File = "Gemy.txt";
+
+sleep(5);
+
+$Read = @fopen($File, "r")
+	
+	or die("Can't Open This File " . $File);

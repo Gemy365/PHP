@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal";
+
+$Shuffle = str_shuffle($Name);
+
+echo $Shuffle;
+

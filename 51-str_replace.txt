@@ -1,0 +1,15 @@
+<?php
+
+$Name = "Mohamed@Gamal#Mohamed_ElDoctor-Ahmed";
+
+echo $Name . "<br>";
+
+$search = array("#" , "@" , "-" , "_");
+
+$NewName = str_replace($search , " " , $Name , $i);
+
+echo $NewName . "<br>";
+
+$str = implode(" ", $search);
+
+echo "i replaced " . $str . " " . $i . " Times" ;

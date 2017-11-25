@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal <br>";
+
+$Repeat = str_repeat($Name, 4);
+
+echo $Repeat;
+

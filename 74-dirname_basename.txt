@@ -1,0 +1,15 @@
+<?php
+
+echo dirname(__FILE__) . "<br>";
+
+echo "<br>";
+
+include dirname(__FILE__) . "/../Gemy.php";
+
+echo "<br>";
+
+echo basename(__FILE__) . "<br>";
+
+echo "<br>";
+
+echo basename(__FILE__ , ".php");

@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal";
+
+$Length = strlen($Name);
+
+echo $Length;
+

@@ -1,0 +1,16 @@
+<?php
+
+$name = "Gemy";
+
+function FuncName()
+{
+
+	$name = "Mamo";
+
+	echo "The Name From InSide [Local Scope] Function Is : " . $name . "<br>";
+
+
+	echo "The Name From OutSide [GLOBAL Scope] Function Is : " . $GLOBALS["name"] ;
+}
+
+FuncName();

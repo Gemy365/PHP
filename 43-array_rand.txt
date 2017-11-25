@@ -1,0 +1,17 @@
+<?php
+
+$Friends = array ("Ahmed" , "Omar" , "Badr" , "Gemy" , "Nabil" , "Kamal" , "Ali" , "Walid");
+
+$KeyValue = array_rand($Friends , 3);
+
+echo "<pre>";
+
+print_r($Friends);
+
+echo "</pre>";
+
+echo $Friends[$KeyValue[0]] . "<br>";
+
+echo $Friends[$KeyValue[1]] . "<br>";
+
+echo $Friends[$KeyValue[2]] . "<br>";

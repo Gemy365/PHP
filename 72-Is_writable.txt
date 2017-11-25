@@ -1,0 +1,19 @@
+<?php
+
+//echo dirname(__FILE__);
+
+
+$File = "Gemy.txt";
+
+if(is_writable($File))
+{
+	echo "Yup The File Called [" . $File . "] Is Writable";
+
+	file_put_contents($File, "Hey Gemy.. I Find THis File So Nice To Meet U :)");
+}
+else
+{
+	echo "Sorry Can't Find This File [" . $File . "]";
+
+	file_put_contents($File, "Hey Gemy.. Sorry I didn't Find THis File So I Can't Write");
+}

@@ -1,0 +1,20 @@
+<?php
+
+//echo dirname(__FILE__);
+
+$Folder = "Gemy";
+
+if(is_dir($Folder))
+{
+	rmdir($Folder);
+
+	echo "Yup The Folder Called [" . $Folder . "] Is exsits & i Remove it";
+
+}
+else
+{
+	mkdir($Folder);
+
+	echo "Sorry The Folder Called [" . $Folder . "] Is Not exsits & i Create it";
+
+}

@@ -1,0 +1,7 @@
+<?php
+
+$File = __DIR__ . "/Gemy.php";
+
+file_put_contents($File , "Hey Gemy :D " , FILE_APPEND);
+
+file_put_contents($File , "Nice Too Meet You ;) " , FILE_APPEND);

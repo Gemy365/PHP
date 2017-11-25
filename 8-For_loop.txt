@@ -1,0 +1,12 @@
+<?php
+
+$langs = array("HTML" , "Css" , "JS" , "PHP" , "Python" , "Ruby");
+
+echo "<ol>";
+
+	for ($i = 0 ; $i < count($langs) ; $i++)
+	{
+		echo "<li>" . $langs[$i] . "</li>";
+	}
+
+echo "</ol>";

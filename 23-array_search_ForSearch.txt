@@ -1,0 +1,15 @@
+<?php
+
+$Name = array (
+
+	"Mohamed"	  ,
+	"Gamal"		  ,
+	"Mamo" 		  ,
+	"Medoo"		  ,
+	"Gemy"		  ,
+	);
+
+
+$MyName = array_search("Gemy", $Name);
+
+echo "yes it's Found in Index " . $MyName . " the Value Is " . $Name[$MyName];

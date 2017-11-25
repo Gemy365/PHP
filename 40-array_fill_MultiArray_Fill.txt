@@ -1,0 +1,11 @@
+<?php
+
+$Name = array_fill(0 , 5 , array_fill(2 , 3 , "Mamo"));
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";

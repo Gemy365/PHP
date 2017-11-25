@@ -1,0 +1,25 @@
+<?php
+
+$diet = array (
+
+	"FirstDay" 	=> array("Apple", "Banana", "Rice"),
+	"SecondDay"	=> array("Watermelon", "cheese", "Pasta"),
+	"ThirdDay"	=> array("Chicks", "Bread", "Banana"),
+	"FourthDay"	=> array("Meat", array(
+
+		"Pasta" => "30%",
+		"Rice"  => "50%",
+		"Meat"  => "80%"
+		)
+		, "Watermelon"),
+	);
+
+
+
+echo "<pre>";
+
+print_r($diet);
+
+echo "</pre>";
+
+echo $diet["FourthDay"][1]["Rice"];

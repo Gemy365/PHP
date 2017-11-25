@@ -1,0 +1,5 @@
+<?php
+
+$Date = strtotime("2 year 1 month 2 Day");
+
+echo date("Y-m-d H:i:s a" , $Date);

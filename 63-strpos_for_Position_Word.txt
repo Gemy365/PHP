@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal Gemy Mohamed El-Doctor";
+
+$Position = strpos($Name, "Gemy");
+
+echo $Position;
+ 

@@ -1,0 +1,17 @@
+<?php
+
+$countires = array(
+
+	"EG" => "Egypt",
+	"SA" => "Saudi Arabian",
+	"QA" => "Qatar",
+	"BA" => "Bahrain",
+	"SY" => "Syria",
+	"SU" => "Sudan",
+	"PA" => "Palestine",
+);
+
+foreach ($countires as $key => $value) 
+{
+	echo $key . " => " . $value . "<br>";
+}

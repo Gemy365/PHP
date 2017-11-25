@@ -1,0 +1,6 @@
+<?php
+
+$Name 	= "Mohamed Gamal Mohamed El-Doctor Mohamed Gemy";
+
+echo substr_count($Name , "Mohamed");
+ 

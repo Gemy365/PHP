@@ -1,0 +1,23 @@
+<?php
+
+$file = fopen("Gemy.txt", "w+");
+
+$write = fwrite($file , "Hey Gemy How Are You..?!");
+
+$seek = fseek($file, 4 , SEEK_SET);
+
+$write = fwrite($file , "M");
+
+$seek = fseek($file, 0 , SEEK_CUR);
+
+$write = fwrite($file , "e");
+
+$seek = fseek($file, 0 , SEEK_CUR);
+
+$write = fwrite($file , "m");
+
+$seek = fseek($file, 0 , SEEK_CUR);
+
+$write = fwrite($file , "o");
+
+fclose($file); 

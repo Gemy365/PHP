@@ -1,0 +1,9 @@
+<?php
+
+$name = "Mohamed Gamal Mohamed ElDoctor";
+
+echo $name . "<br>";
+
+$char = chunk_split($name , 1 , " @ ");
+
+echo $char;

@@ -1,0 +1,25 @@
+<?php
+
+$Name = "Mohamed Gamal El'Doctor";
+
+echo $Name . "<br>";
+
+$LowerCase = strtolower($Name);
+
+echo $LowerCase . "<br>";
+ 
+$UpperCase = strtoupper($Name);
+
+echo $UpperCase . "<br>";
+
+$LowerCaseFirst = lcfirst($Name);
+
+echo $LowerCaseFirst . "<br>";
+
+$UpperCaseFirst = ucfirst($Name);
+
+echo $UpperCaseFirst . "<br>";
+
+$FirstOfAll = ucwords($Name);
+
+echo $FirstOfAll . "<br>";

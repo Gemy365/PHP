@@ -1,0 +1,13 @@
+<?php
+
+$Filter = $_POST["username"];
+
+echo filter_var($Filter , FILTER_SANITIZE_STRING);
+
+?>
+
+
+<form action = "<?php echo $_SERVER["PHP_SELF"]; ?>" method = "POST"> 							
+	<input type = "text" name = "username">		
+	<input type = "submit" value = "Send">	
+</form>	

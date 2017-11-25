@@ -1,0 +1,8 @@
+<?php
+
+mkdir("BackUp");
+
+Copy(__FILE__ , __DIR__ . "/BackUp/Course.PHP");
+
+rename(__DIR__ . "/BackUp/Course.php" , __DIR__ . "/BackUp/Copied.PHP");
+

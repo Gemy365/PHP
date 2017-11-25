@@ -1,0 +1,26 @@
+<?php
+
+$Name = "Gemy";
+
+switch ($Name) 
+{
+	case "Gemy":
+		
+		echo "Hello Gemy How Are You..?!";
+		break;
+
+	case "Mohamed":
+		
+		echo "Hey Mohamed Nice Too Meet You..?!";
+		break;	
+	
+	case "Gamal":
+		
+		echo "What's Up Gamal..?!";
+		break;	
+	
+	default:
+
+		echo "Who Are You..?!";
+		break;
+}

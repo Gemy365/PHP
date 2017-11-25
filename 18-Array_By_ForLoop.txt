@@ -1,0 +1,17 @@
+<?php
+
+$langs = array ("HTML" , "HTML5" , "Css" , "Css3");
+
+$langs[] = "PHP";
+$langs[] = "Python";
+$langs[] = "JS";
+$langs[] = "JQuery";
+
+echo "<ul>";
+
+for ($lang = 0; $lang < count($langs); $lang++) 
+{
+	echo "<li>" . $langs[$lang] . "</li>";
+}
+
+echo "</ul>";

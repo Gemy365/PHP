@@ -1,0 +1,31 @@
+<?php
+
+$Name = array (
+
+	"Mohamed"  	  ,
+	"Gamal"		  ,
+	"Mamo"  	  ,
+	"Gemy"		  ,
+	"Medoo"		  ,
+	);
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";
+
+
+$lastName = array_shift($Name);
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";
+
+echo $lastName ;

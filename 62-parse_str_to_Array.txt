@@ -1,0 +1,13 @@
+<?php
+
+$name = " Name=Mohamed & Age=22 & Skill=4 & NickName=Gemy ";
+
+echo $name . "<br>";
+
+parse_str($name , $NewArray);
+
+echo "<pre>";
+
+print_r($NewArray);
+
+echo "</pre>";

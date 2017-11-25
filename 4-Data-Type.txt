@@ -1,0 +1,72 @@
+<?php 
+
+$var1 = "I Love PHP"; // Data Type String
+
+$var2 = 100; // Data Type Intger
+
+$var3 = TRUE; // Data Type Boolean
+
+$var4 = 10.5; // Data Type Float / Double
+
+$var5 = array(
+
+"A" => "Val1",
+
+"B" => "Val2",
+
+"C" => "Val2",
+
+	); // Data Type Array
+
+$var6 = NULL; // Data Type NULL
+
+class Book {
+
+	Function Book() {
+
+		$this -> genre ="Adventure";
+
+	}
+
+
+}
+
+$var7 = new Book(); // Data Type Object
+
+$var8 = fopen('Mamo.txt' , 'r'); //Resource
+
+echo "<h2> Get Type </h2>";
+
+echo gettype($var1) . "<br>";
+
+echo gettype($var2) . "<br>";
+
+echo gettype($var3) . "<br>";
+
+echo gettype($var4) . "<br>";
+
+echo gettype($var5) . "<br>";
+
+echo gettype($var6) . "<br>";
+
+echo gettype($var7) . "<br>";
+
+echo gettype($var8) . "<br>";
+
+echo "<h2> Variable Dump </h2>";
+
+echo var_dump($var1) . "<br>";
+
+echo var_dump($var2) . "<br>";
+
+echo var_dump($var3) . "<br>";
+
+echo var_dump($var4) . "<br>";
+
+echo var_dump($var5) . "<br>";
+
+echo var_dump($var6) . "<br>";
+
+echo var_dump($var7) . "<br>";
+
+echo var_dump($var8) . "<br>";

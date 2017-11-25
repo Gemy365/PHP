@@ -1,0 +1,15 @@
+<?php
+
+$Name = array (
+
+	"Mohamed"    	 => "30%",
+	"Gemy" 		 => "50%",
+	"Mamo"		 => "20%",
+
+	);
+
+if(array_key_exists("Gemy", $Name))
+{
+
+	echo "yes it's Found As A Key ";
+}

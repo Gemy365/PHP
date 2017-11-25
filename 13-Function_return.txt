@@ -1,0 +1,13 @@
+<?php
+
+function calculateYourAge( $age )
+{
+
+	echo "Your Age Is " . $age .  " In Days = ";
+
+	$age *= 365 ;
+
+	return $age;
+}
+
+echo calculateYourAge( 22 );

@@ -1,0 +1,31 @@
+<?php
+
+if (file_exists(__DIR__ . "/Testing"))
+{
+	echo "Sorry This Directory Is Exists <br>";
+}
+else
+{
+	mkdir(__DIR__ . "/Testing");
+}
+
+$Directory = __DIR__ . "/Testing/";
+
+file_put_contents($Directory . "Gemy.php", "Hey Gemy I Know You :D");
+
+$File = $Directory . "Gemy.php";
+
+chmod($File, 0444); //It's Read Only
+
+if (is_writable($File))
+{
+	file_put_contents($File , "Gemy What's up..?! :D");
+}
+else
+{
+	chmod($File, 0777); //It's not Read Only
+
+	file_put_contents($File , "<?php echo 'Gemy..Are We Done ..?!';");
+	
+	include ($File);
+}

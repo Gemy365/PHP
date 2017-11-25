@@ -1,0 +1,13 @@
+<?php
+
+$file = fopen("Gemy.txt", "a+");
+
+$read = fread($file, filesize("Gemy.txt"));
+
+echo "The Old Content Is : " . $read;
+
+$write = fwrite($file , "This Is New Content ");
+
+echo $write;
+
+fclose($file); 

@@ -1,0 +1,28 @@
+<?php
+
+$Name = array (
+
+	"Mohamed"	  ,
+	"Gamal"		  ,
+	"Mamo" 		  ,
+	"Medoo"		  ,
+	);
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";
+
+
+array_unshift($Name, "Gemy");
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";

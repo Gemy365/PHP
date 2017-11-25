@@ -1,0 +1,7 @@
+<?php
+
+$Date = time();
+
+echo date("Y-m-d H:i:s" , $Date) . "<br>";
+
+echo date("l jS \Of F Y H:i:s a" , $Date);

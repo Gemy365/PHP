@@ -1,0 +1,27 @@
+<?php
+
+$diet = array (
+
+	"FirstDay" 	=> array("Apple", "Banana", "Rice"),
+	"SecondDay"	=> array("Watermelon", "cheese", "Pasta"),
+	"ThirdDay"	=> array("Chicks", "Bread", "Banana"),
+	"FourthDay"	=> array("Meat", "Pasta", "Watermelon"),
+	);
+
+
+
+echo "<pre>";
+
+print_r($diet);
+
+echo "</pre>";
+
+foreach ($diet as $Days => $Food) 
+{
+	echo "<h3>In " . $Days . " I Will Eat : </h3>";
+
+	foreach ($Food as $Iteam)
+	{
+		echo "- " . $Iteam . "<br>";
+	}
+}

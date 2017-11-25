@@ -1,0 +1,7 @@
+<?php
+
+//mkdir("BackUp");
+
+unlink(__DIR__ . "/BackUp/Copied.php");
+
+//rmdir("BackUp");

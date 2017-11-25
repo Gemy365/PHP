@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal Gemy Mohamed El-Doctor";
+
+$JustStratFromIt = strstr($Name, "Gemy");
+
+echo $JustStratFromIt;
+ 

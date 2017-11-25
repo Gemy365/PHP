@@ -1,0 +1,11 @@
+<?php
+
+$Name = " <b>Mohamed</b> <a href = 'Gamal'> Gamal </a> <i>El'Doctor</i> ";
+
+echo $Name . "<br>";
+
+$Tag = strip_tags($Name , "<a>");
+
+echo $Tag;
+
+

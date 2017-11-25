@@ -1,0 +1,26 @@
+<?php
+
+$Name = array (
+
+	"Mohamed" 	=> 50,
+	"Gamal"		=> 100,
+	"Ali"  	 	=> 20,
+	"Walid"		=> 90,
+	"Zahy"		=> 60,
+	);
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";
+
+krsort($Name);
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";

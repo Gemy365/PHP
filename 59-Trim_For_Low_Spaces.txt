@@ -1,0 +1,10 @@
+<?php
+
+$Name = "         Mohamed          Gamal            El'Doctor           ";
+
+echo var_dump($Name) . "<br>";
+
+$Trim = trim($Name);
+
+echo var_dump($Trim);
+ 

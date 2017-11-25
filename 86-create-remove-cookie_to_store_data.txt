@@ -1,0 +1,52 @@
+<?php
+
+//setcookie("BackGround" , "" , time() - 3600 , "/" );	 // if u wanna Remove the Cookie
+
+$Admin = array("Gemy");									 // array have "Gemy" Like Admin
+
+$UserName = $_POST["username"];							 // Get the User Name By "POST" >> Cause It's Method 
+
+$MainColor = "#ffffff";									 // White Color
+
+if (in_array($UserName, $Admin))						 // Check If The User Name In THis Array ?
+{
+	echo "Only U Can Change This BackGround" . "<br>";	 // Message
+
+if ( $_SERVER["REQUEST_METHOD"] == "POST" ) 			 // Check The Method Equal "POST" or Not ?
+{
+	$MainColor = $_POST["color"];						 // Change The Main Color With Color which chosen by admin 
+
+	setcookie("BackGround" , $MainColor , time() + 3600 , "/");  // Create Cookie
+}
+if (isset($_COOKIE["BackGround"]))								 // Check If There's Cookie Have This Name ?
+{
+	$Body = $_COOKIE["BackGround"];								 // Change Color If There's Cookie Exists
+}
+else
+{
+	$Body = $MainColor;											 // Let The Previous Color If Not Exists
+}
+}
+else
+{
+	echo "Sorry U Are Not The Admin.. Can't Change The BackGround"; // Message
+}
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Modify Cookie</title>
+	</head>
+	<body style="background-color: <?php echo $Body; ?>"> 							
+		<form action = "<?php echo $_SERVER["PHP_SELF"]; ?>" method = "POST">  <!--Open In the Same Page & Make Method "POST" -->
+			<input type = "text" name = "username">							   <!--User Name Must Be "Gemy" Cause He's Admin -->
+			<input type = "submit" value = "Log in">						   <!--Botton -->
+			<br>
+			<input type = "color" name = "color">							   <!--Choose Color From Color List -->
+			<input type = "submit" value = "Choose">						   <!--Botton -->
+		</form>	
+	</body>
+</html>	
+

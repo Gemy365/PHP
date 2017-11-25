@@ -1,0 +1,8 @@
+<?php
+
+function calculateYourAge($name , $age)
+{
+	echo "Hello " . $name . " Your Age Is " . $age ;
+}
+
+calculateYourAge("Gemy" , 22);

@@ -1,0 +1,10 @@
+<?php
+
+$Name = "Mohamed Gamal El'Doctor";
+
+echo $Name . "<br>";
+
+$Count = str_word_count($Name);
+
+echo $Count;
+ 

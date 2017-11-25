@@ -1,0 +1,21 @@
+<?php
+
+$Input = $_POST["username"];
+
+if( filter_var($Input , FILTER_VALIDATE_EMAIL) == TRUE)
+{
+
+	echo "Your Input " . $Input . " Is Email";
+}
+else
+{
+	echo "Sorry Your Input " . $Input . " Is Not Email";
+}
+
+?>
+
+
+<form action = "<?php echo $_SERVER["PHP_SELF"]; ?>" method = "POST"> 							
+	<input type = "text" name = "username">		
+	<input type = "submit" value = "Send">	
+</form>	

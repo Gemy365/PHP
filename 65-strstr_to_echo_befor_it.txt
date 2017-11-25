@@ -1,0 +1,8 @@
+<?php
+
+$Name = "Mohamed Gamal Gemy Mohamed El-Doctor";
+
+$JustBeforIt = strstr($Name, "Gemy" , true);
+
+echo $JustBeforIt;
+ 

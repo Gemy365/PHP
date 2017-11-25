@@ -1,0 +1,11 @@
+<?php
+
+$Name = array_fill(2 , 10 , "Gemy");
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";

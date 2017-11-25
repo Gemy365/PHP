@@ -1,0 +1,11 @@
+<?php
+
+$name = "Mohamed Gamal Mohamed ElDoctor";
+
+echo $name;
+
+$arr = explode(" " , $name , 2);
+
+echo "<pre>";
+print_r($arr);
+echo "</pre>";

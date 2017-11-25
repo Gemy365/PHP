@@ -1,0 +1,9 @@
+<?php
+
+$first 	= "Gemy";
+
+$Second = "Gemy";
+
+echo strcmp($first , $Second);
+ 
+ 

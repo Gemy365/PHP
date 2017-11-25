@@ -1,0 +1,14 @@
+<?php
+
+$Number = array(20 , 60 , 40 , 30);
+
+
+echo "<pre>";
+
+print_r($Number);
+
+echo "</pre>";
+
+$sum = array_sum($Number);
+
+echo $sum;

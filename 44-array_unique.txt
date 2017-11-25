@@ -1,0 +1,18 @@
+<?php
+
+$Friends = array ("Gemy" , "Omar" , "Badr" , "Gemy" , "Badr" , "Kamal" , "Omar" , "Walid");
+
+echo "<pre>";
+
+print_r($Friends);
+
+echo "</pre>";
+
+
+$Unique = array_unique($Friends);
+
+echo "<pre>";
+
+print_r($Unique);
+
+echo "</pre>";

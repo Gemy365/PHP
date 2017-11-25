@@ -1,0 +1,12 @@
+<?php
+
+$langs = array ("HTML" , "HTML5" , "Css" , "Css3");
+
+$langs[] = "PHP";
+$langs[] = "Python";
+$langs[] = "JS";
+$langs[] = "JQuery";
+
+echo "<pre>";
+print_r($langs);
+echo "</pre>";

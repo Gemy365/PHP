@@ -1,0 +1,13 @@
+<?php
+
+$Name = " 'Mohamed' 'Gamal' 'Mohamed' 'El' 'Doctor' ";
+
+echo $Name . "<br>";
+
+$Skipped = addslashes($Name);
+
+echo $Skipped . "<br>";
+
+$Clean = stripslashes($Skipped);
+
+echo $Clean;

@@ -1,0 +1,27 @@
+<?php
+
+$langs = array (
+
+	"HTML" 	=> "40%",
+	"Css"	=> "60%",
+	"JS"	=> "80%",
+	"PHP"	=> "100%"
+	);
+
+$langs["Python"] = "120%";
+
+echo "<pre>";
+
+print_r($langs);
+
+echo "</pre>";
+
+
+echo "<ol>";
+
+foreach ($langs as $lang => $Progress) 
+{
+	echo "<li> My Progress In " . $lang . " Is => " . $Progress . "</li>";
+}
+
+echo "</ol>";

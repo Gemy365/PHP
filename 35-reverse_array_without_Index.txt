@@ -1,0 +1,26 @@
+<?php
+
+$Name = array (
+
+	"Mohamed",
+	"Gamal",
+	"Ali",
+	"Walid",
+	"Zahy",
+	);
+
+
+
+echo "<pre>";
+
+print_r($Name);
+
+echo "</pre>";
+
+$Reverse = array_reverse($Name);
+
+echo "<pre>";
+
+print_r($Reverse);
+
+echo "</pre>";

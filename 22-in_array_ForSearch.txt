@@ -1,0 +1,17 @@
+<?php
+
+$Name = array (
+
+	"Mohamed"	  ,
+	"Gamal"		  ,
+	"Mamo" 		  ,
+	"Medoo"		  ,
+	"Gemy"		  ,
+	);
+
+
+if(in_array("Gemy", $Name))
+{
+
+	echo "yes it's here";
+}

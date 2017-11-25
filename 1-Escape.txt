@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="UTF-8">		
+		<title> <?php echo "Homepage"; ?> </title>		
+	</head>	
+	<body>	
+		<?php echo "<h1 class=\"Hey\">Gemy</h1>"; ?>		
+	</body>	
+</html>

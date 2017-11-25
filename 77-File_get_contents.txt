@@ -1,0 +1,8 @@
+<?php
+
+$File = __DIR__ . "/Gemy.php";
+
+file_put_contents($File , "Hey Gemy :D ");
+
+echo file_get_contents("Gemy.php");
+

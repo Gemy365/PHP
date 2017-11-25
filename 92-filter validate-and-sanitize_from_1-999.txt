@@ -1,0 +1,29 @@
+<?php
+
+$Input = $_POST["username"];
+
+$opt =array("options" => array("min_range" =>1 , "max_range" =>999));
+
+$SanitizedInput = filter_var($Input , FILTER_SANITIZE_NUMBER_INT);
+
+echo "The Main Input Is " . $Input . "<br>";
+
+echo "The Input After Sanitize Is " . $SanitizedInput . "<br>";
+
+if( filter_var($SanitizedInput , FILTER_VALIDATE_INT , $opt) == TRUE )
+{
+
+	echo "Your Input Is " . $SanitizedInput . " It's Between 1-999";
+}
+else
+{
+	echo "Sorry Your Input Is Not Only INTGER & It's Not Between 1-999.. It's " . $SanitizedInput;
+}
+
+?>
+
+
+<form action = "<?php echo $_SERVER["PHP_SELF"]; ?>" method = "POST"> 							
+	<input type = "text" name = "username">		
+	<input type = "submit" value = "Send">	
+</form>	

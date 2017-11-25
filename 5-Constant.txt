@@ -1,0 +1,13 @@
+<?php
+
+define("SITE_STATUS", false);
+
+if(SITE_STATUS == false)
+{
+
+echo "Hey Gemy Wellcome To Ur WebSite";
+}
+else
+{
+	echo "Sorry It's Not Available Now";
+}
